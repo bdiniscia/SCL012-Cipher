@@ -57,7 +57,7 @@ En este archivo se encuentra el JavaScript de los EventListener de los botones, 
 
 ## Instrucciones de uso
 
- 1. Coloque la llave secreta (un número positivo) en la casilla de "Llave Secreta" con el que quiera codificar o descodificar.  
+ 1. Coloque la llave secreta (un número positivo o negativo) en la casilla de "Llave Secreta" con el que quiera codificar o descodificar.  
  2. Coloca tu mensaje en a codificar o descodificar en el campo correspondiente. 
  3. Cliquea en la flecha naranja para accionar la codificación o descodificación. 
  4. Puedes comenzar desde cero y borrar todos los campos al cliquear la palabra "Limpiar" en la parte de abajo a la derecha.
