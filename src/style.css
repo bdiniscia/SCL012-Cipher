@@ -82,7 +82,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 20%;
     text-align: center;
     margin-top: 80px;
 }
@@ -180,4 +180,49 @@ body {
  #restart:hover {
     color: #00ddc2;
 }
+
+#help {
+    display: inline;
+    margin-left: 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
 

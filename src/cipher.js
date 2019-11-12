@@ -25,6 +25,10 @@ window.cipher = {
         let a = specials.indexOf(message[i]);
         let e = (a + (32 + (x%32))) %32;
         result = result + specials[e];
+      } else if (message[i] == "ñ") {
+        result = result + "Ñ";
+      } else if (message[i] == "Ñ") {
+        result = result + "ñ";
       } else {
         result = result + message[i];
       }
@@ -61,6 +65,10 @@ window.cipher = {
         let a = specials.indexOf(message[i]);
         let e = ((a - (32 + (x%32))%32) + 32) %32;;
         result = result + specials[e];
+      } else if (message[i] == "ñ") {
+        result = result + "Ñ";
+      } else if (message[i] == "Ñ") {
+        result = result + "ñ";
       } else {
         result = result + message[i];
       }

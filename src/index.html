@@ -36,7 +36,12 @@
         <div id="secretKey">
           <p id="pSecretKey">Llave Secreta:</p>
           <input type="text" id="key" placeholder="Nº" >
+          <div class="tooltip">
+            <img id="help" src="https://i.ibb.co/wyyjtNQ/image.png" alt="Help" >
+            <span class="tooltiptext">Introduce un número positivo o negativo como llave secreta para tu codificación o descodificación</span>
+          </div>
         </div>
+
         <div id="contentCipher">
           <p class="normal-text">Codificar:</p>
           <textarea id="enterMessage" placeholder="Escribe tu mensaje a codificar aquí"></textarea>
@@ -45,6 +50,7 @@
             <p id="finalCode"></p> 
           </div>
         </div>
+
         <div id="contentDecipher">
             <p class="normal-text">Descodificar:</p>
             <textarea id="enterCode" placeholder="Escribe tu mensaje a descodificar aquí"></textarea>
