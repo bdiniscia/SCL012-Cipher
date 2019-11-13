@@ -226,3 +226,15 @@ body {
     opacity: 1;
   }
 
+  .copy {
+      float: right;
+      width: 22px;
+      position: absolute;
+      top: 88px;
+      right: 10px;
+      filter: invert(27%) sepia(60%) saturate(3%) hue-rotate(329deg) brightness(97%) contrast(93%);
+  }
+
+  .copy:hover {
+      filter: invert(79%) sepia(24%) saturate(7278%) hue-rotate(122deg) brightness(95%) contrast(103%)
+  }

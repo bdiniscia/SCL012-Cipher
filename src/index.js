@@ -20,9 +20,33 @@ decoding.addEventListener("click", () => {
     let newOffset = document.getElementById("key").value;
     let newCode = document.getElementById("enterCode").value;
     if (newOffset== "" || isNaN(newOffset)) {
-        alert("Coloca un número válido en Llave Secreta");
+        alert("Introduce un número válido en Llave Secreta");
     } else { 
         cipher.decode(newOffset,newCode);
         document.getElementById("finalDecode").innerHTML = cipher.decode(newOffset,newCode);
     } 
+});
+
+// Funciones para los botones de copiar
+
+let copyButton1 = document.getElementById("copy-1");
+copyButton1.addEventListener("click", () => {
+    let copyText = document.getElementById("finalCode").innerHTML;
+    let copySelec = document.createElement("textarea");
+    document.body.appendChild(copySelec);
+    copySelec.value = copyText;
+    copySelec.select();
+    document.execCommand("copy");
+    document.body.removeChild(copySelec);
+});
+
+let copyButton2 = document.getElementById("copy-2");
+copyButton2.addEventListener("click", () => {
+    let copyText = document.getElementById("finalDecode").innerHTML;
+    let copySelec = document.createElement("textarea");
+    document.body.appendChild(copySelec);
+    copySelec.value = copyText;
+    copySelec.select();
+    document.execCommand("copy");
+    document.body.removeChild(copySelec);
 });

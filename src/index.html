@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  <div id="root"> 
+  <div id="root">
       <!--Barra Superior-->
       <div id="topbar">
         <img src="https://i.ibb.co/ydB1f97/LogoSM.png" id="image-logo">
@@ -14,6 +14,7 @@
           <h3 id="motto">Codifica información sensible antes de compartirla en servicios de mensajería</h3>
         </div>
       </div>
+
       <!--Parte gris-->
       <div id="content">
 
@@ -48,6 +49,7 @@
           <img class="arrow" id="arrow1" src="https://i.ibb.co/yVSd4Cc/Arrow-1.png">
           <div class="output-area" id="output-area1"> 
             <p id="finalCode"></p> 
+            <img class="copy" id="copy-1" src="img/duplicate.svg" alt="copy">
           </div>
         </div>
 
@@ -56,14 +58,15 @@
             <textarea id="enterCode" placeholder="Escribe tu mensaje a descodificar aquí"></textarea>
             <img class="arrow" id="arrow2" src="https://i.ibb.co/yVSd4Cc/Arrow-1.png">
             <div class="output-area" id="output-area2"> 
-              <p id="finalDecode"></p> 
+              <p id="finalDecode"></p>
+              <img class="copy" id="copy-2" src="img/duplicate.svg" alt="copy"> 
             </div>
           </div>
         <a id="restart" href="index.html">Limpiar</a>
 
 
       </div>
-   </div>
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

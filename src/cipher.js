@@ -3,7 +3,7 @@ window.cipher = {
     let offset = index;
     let message = text;
     let x = parseInt(offset);
-    let result='';
+    let result="";
     let specials = ["!","\"","#","$","%","&","\'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
 
     for (let i = 0, len = message.length; i < len; i++) {
@@ -41,7 +41,7 @@ window.cipher = {
     let offset = index;
     let message = text;
     let x = parseInt(offset);
-    let result='';
+    let result="";
     let specials = ["!","\"","#","$","%","&","\'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
 
     for (let i = 0, len = message.length; i < len; i++) {
