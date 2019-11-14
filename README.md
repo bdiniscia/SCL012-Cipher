@@ -48,7 +48,7 @@ Luego de la prueba de UX, se tomó como mejora colocar un Tooltip donde dejara c
 
 Y se agregó íconos de Copiar para que fuera más amigable al usuario la usabilidad. 
 
-![alt text](img/final.png  "imagen de mensaje")
+![alt text](src/img/final.png   "imagen de mensaje")
 
 ## Archivos
 
