@@ -44,7 +44,11 @@ Es para todas las edades, pero en especial para la generación Millenial, que so
 
 ## Diseño Final
 
-![alt text](https://i.ibb.co/T18q20d/screencapture-file-Users-barbara-SCL012-Cipher-src-index-html-2019-11-05-13-35-41.png  "imagen de mensaje")
+Luego de la prueba de UX, se tomó como mejora colocar un Tooltip donde dejara claro que había que colacar de Llave Secreta. 
+
+Y se agregó íconos de Copiar para que fuera más amigable al usuario la usabilidad. 
+
+![alt text](img/final.png  "imagen de mensaje")
 
 ## Archivos
 
