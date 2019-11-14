@@ -31,7 +31,7 @@ decoding.addEventListener("click", () => {
 
 let copyButton1 = document.getElementById("copy-1");
 copyButton1.addEventListener("click", () => {
-    let copyText = document.getElementById("finalCode").innerHTML;
+    let copyText = document.getElementById("finalCode").textContent;
     let copySelec = document.createElement("textarea");
     document.body.appendChild(copySelec);
     copySelec.value = copyText;
@@ -42,7 +42,7 @@ copyButton1.addEventListener("click", () => {
 
 let copyButton2 = document.getElementById("copy-2");
 copyButton2.addEventListener("click", () => {
-    let copyText = document.getElementById("finalDecode").innerHTML;
+    let copyText = document.getElementById("finalDecode").textContent;
     let copySelec = document.createElement("textarea");
     document.body.appendChild(copySelec);
     copySelec.value = copyText;
