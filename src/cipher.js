@@ -5,7 +5,7 @@ window.cipher = {
     let x = parseInt(offset);
     let result="";
     let specials = ["!","\"","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
-
+    
     for (let i = 0, len = message.length; i < len; i++) {
       if (message[i].charCodeAt() >= 65 && message[i].charCodeAt() <= 90 || message[i].charCodeAt() >= 97 && message[i].charCodeAt() <= 122 ) { 
         if (message[i] == message[i].toUpperCase()){
@@ -42,10 +42,9 @@ window.cipher = {
     let x = parseInt(offset);
     let result="";
     let specials = ["!","\"","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
-
+    
     for (let i = 0, len = message.length; i < len; i++) {
       if (message[i].charCodeAt() >= 65 && message[i].charCodeAt() <= 90 || message[i].charCodeAt() >= 97 && message[i].charCodeAt() <= 122 ) {
-        
         if (message[i] == message[i].toUpperCase()) {
           let a = message[i].charCodeAt(0);
           let e = (((a + 65 - (26 + (x%26))) % 26) + 65);
