@@ -6,7 +6,7 @@ coding.addEventListener("click", () => {
     let newOffset = document.getElementById("key").value;
     let newCode = document.getElementById("enterMessage").value;
     if (newOffset== "" || isNaN(newOffset)) {
-        alert("Coloca un número válido en Llave Secreta");
+        alert("Introduce un número válido en Llave Secreta");
     } else { 
         cipher.encode(newOffset,newCode);
         document.getElementById("finalCode").innerHTML = cipher.encode(newOffset,newCode); 
