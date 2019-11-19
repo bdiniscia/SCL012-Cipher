@@ -2,8 +2,8 @@ window.cipher = {
   encode: (offset, message) => {
     let x = parseInt(offset);
     let result="";
-    let special = ["!","\"","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
-
+    let specials = ["!","\"","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
+    
     for (let i = 0, len = message.length; i < len; i++) {
       if (message[i].charCodeAt() >= 65 && message[i].charCodeAt() <= 90 || message[i].charCodeAt() >= 97 && message[i].charCodeAt() <= 122 ) { 
         if (message[i] == message[i].toUpperCase()){
@@ -19,10 +19,10 @@ window.cipher = {
         let a=parseInt(message[i]);
         let e = (a + ((10 + (x%10))%10)) %10;
         result=result+e;
-      }else if(special.includes(message[i])){
-        let a=special.indexOf(message[i]);
+      }else if(specials.includes(message[i])){
+        let a=specials.indexOf(message[i]);
         let e=(a+(32+(x%32)))%32;
-        result=result+special[e];
+        result=result+specials[e];
       }else if(message[i]=="ñ"){
         result=result+"Ñ";
       }else if(message[i]=="Ñ"){
@@ -38,10 +38,9 @@ window.cipher = {
     let x = parseInt(offset);
     let result="";
     let specials = ["!","\"","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
-
+    
     for (let i = 0, len = message.length; i < len; i++) {
       if (message[i].charCodeAt() >= 65 && message[i].charCodeAt() <= 90 || message[i].charCodeAt() >= 97 && message[i].charCodeAt() <= 122 ) {
-        
         if (message[i] == message[i].toUpperCase()) {
           let a = message[i].charCodeAt(0);
           let e = (((a + 65 - (26 + (x%26))) % 26) + 65);
