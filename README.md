@@ -48,7 +48,7 @@ Luego de la prueba de UX, se observó que los usuarios no estaban muy seguros qu
 
 También para facilitar el codificado y descodificado, se agregó íconos de Copiar para que fuera más amigable al usuario, ya que les costaba pasar el texto codificado al descoficicador. 
 
-![alt text](src/img/final.png   "imagen de mensaje")
+![Vista Final](src/img/final1.png  "Vista final")
 
 ## Archivos
 
