@@ -44,9 +44,9 @@ Es para todas las edades, pero en especial para la generación Millenial, que so
 
 ## Diseño Final
 
-Luego de la prueba de UX, se tomó como mejora colocar un Tooltip donde dejara claro que había que colacar de Llave Secreta. 
+Luego de la prueba de UX, se observó que los usuarios no estaban muy seguros qué colocar en "Llave Secreta", así que se tomó como mejora colocar un Tooltip donde dejara claro que tipo de dato había que colacar de Llave Secreta. 
 
-Y se agregó íconos de Copiar para que fuera más amigable al usuario la usabilidad. 
+También para facilitar el codificado y descodificado, se agregó íconos de Copiar para que fuera más amigable al usuario, ya que les costaba pasar el texto codificado al descoficicador. 
 
 ![alt text](src/img/final.png   "imagen de mensaje")
 
