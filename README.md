@@ -9,7 +9,7 @@ Los usuarios son todas aquellas personas que antes de enviar sus contraseñas o 
 
 Con Smart Comm se soluciona esa problemática, ya que el usuario puede enviar las contraseñas y o las tarjetas codificadas, con la llave secreta, para que la persona receptora pueda descodificarla de forma segura.
 
-Es para todas las edades, pero en especial para la generación Millenial, que son los más preocupados de la seguridad de sus datos en la red.
+Es para todas las edades, pero en especial para la generación Millenial, que son [los más propensos a sufrir ataques cibernéticos](https://seguridadenamerica.com.mx/noticias/ciberseguridad).
 
   
 ## Proceso de diseño
